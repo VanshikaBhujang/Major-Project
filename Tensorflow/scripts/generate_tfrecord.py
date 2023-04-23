@@ -22,6 +22,7 @@ import pandas as pd
 import io
 import xml.etree.ElementTree as ET
 import argparse
+import tensorflow
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'    # Suppress TensorFlow logging (1)
 import tensorflow.compat.v1 as tf
